@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aqua;
+    min-height: 50px;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+/*DEBUG*/
+
+.w-1000 {
+    min-width: 1000px;
+}
+
+/*UTILS*/
+
+.container {
+    display: flex;
+    min-height: 25px;
+    justify-content: space-between;
+
+    background-color: goldenrod;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
