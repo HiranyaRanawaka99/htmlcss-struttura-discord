@@ -20,22 +20,51 @@ li {
 
 /*DEBUG*/
 
-.w-1000 {
-    width: 1000px;
+.w-35-100 {
+    width: 35%;
 }
 
-.w-800 {
-    width: 800px;
+.w-20-100 {
+    width: 20%;
+}
+
+.w-30-100 {
+    width: 30%;
+}
+
+.w-50-100 {
+    width: 50%;
+}
+
+.w-100-100 {
+    width: 100%;
+}
+
+.h-250 {
+    min-height: 250px;
 }
 
 .h-300 {
     min-height: 300px;
 }
 
-.h-250 {
-    min-height: 250px;
+.h-400 {
+    min-height: 400px;
 }
+
+.h-800 {
+    min-height: 800px;
+}
+
+.h-1000 {
+    min-height: 1000px
+}
+
 /*UTILS*/
+
+.flex {
+    display: flex;
+}
 
 .container {
     display: flex;
@@ -56,12 +85,31 @@ li {
     justify-content: space-between;
 }
 
-.roof {
-    display: flex;
 
+/* BG-colors*/
+
+.roof {
     background-color: blue;
 }
 
 .box-alone {
     background-color: violet;
 }
+
+.lg-box {
+    background-color: lightblue;
+}
+
+.sm-box {
+    background-color: pink;
+}
+
+.bg-gray {
+    background-color: lightgray;
+}
+
+.square {
+    background-color: green;
+}
+
+
