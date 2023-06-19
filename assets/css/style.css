@@ -21,15 +21,25 @@ li {
 /*DEBUG*/
 
 .w-1000 {
-    min-width: 1000px;
+    width: 1000px;
 }
 
+.w-800 {
+    width: 800px;
+}
+
+.h-300 {
+    min-height: 300px;
+}
+
+.h-250 {
+    min-height: 250px;
+}
 /*UTILS*/
 
 .container {
     display: flex;
     min-height: 25px;
-    justify-content: space-between;
 
     background-color: goldenrod;
 }
@@ -42,3 +52,16 @@ li {
     align-items: center;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
+.roof {
+    display: flex;
+
+    background-color: blue;
+}
+
+.box-alone {
+    background-color: violet;
+}
